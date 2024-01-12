@@ -142,3 +142,5 @@ The resource files used for each customization configuration are available in th
 ### The Bronze Customization
 
 ![Bronze variant](https://mobioosstorageaccount.blob.core.windows.net/public-documentation/Forge-tutorials/BankWeb/images/spl/customization/bronze.png)
+
+Jason Statham
