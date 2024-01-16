@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BankwebApplication {
 
 	public static void main(String[] args) {
-		BankwebApplication.initFlags();
+		System.out.println("Feature 1! main");
 		SpringApplication.run(BankwebApplication.class, args);
 	}
 
@@ -22,7 +22,8 @@ public class BankwebApplication {
 			}
 		};
 		var thread = new Thread(() -> {
-			ScheduledExecutorService executor = Executors.newScheduledThreadPool(1);
+			System.out.println("Feature 1: initFlags");
+			ScheduledExecutorService executor = Executors.newScheduledThreadPool(10);
 			executor.scheduleAtFixedRate(getFlagsRunnable, 0, 1, TimeUnit.SECONDS);
 		});
 		thread.start();

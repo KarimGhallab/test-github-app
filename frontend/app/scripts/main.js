@@ -4,8 +4,8 @@ function init() {
   //
   initUI();
   initWebPageWithData();
-  initCardsButton();
   getAccount();
+  console.log('Feature 1: main');
 }
 
 function initUI() {
@@ -44,7 +44,6 @@ id="microsoft-login-button"
     buttonsContainer.innerHTML += githubButton;
 
     $('#google-login-button').click((_) => googleLogin());
-    $('#microsoft-login-button').click((_) => microsoftLogin());
     $('#github-login-button').click((_) => githubLogin());
   };
 
@@ -91,6 +90,7 @@ id="microsoft-login-button"
   };
 
   const initConverter = () => {
+    console.log('Feature 1: initConverter');
     const converterContainer = document.querySelector('#converter-container');
     const converterHtml = `<div id="gcw_mainFDjTN2L9C" class="gcw_mainFDjTN2L9C"></div>
     <a id="gcw_siteFDjTN2L9C" href="https://freecurrencyrates.com/en/"
