@@ -130,6 +130,8 @@ To test the customization process, we created three customization configurations
 
 The resource files used for each customization configuration are available in this repository. The icons are located in the folder `frontend/app/images/bank_icons/`, the css files are located in the folder `frontend/app/styles/banks/`, the data files are located in the `frontend/app/data/` folder.
 
+# FEATURE 1
+
 > Before generating any variants, delete the `frontend/node_modules`, as this folder slows down the customization process.
 ### The Gold Customization
 
